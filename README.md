@@ -26,6 +26,7 @@ Task-Specific Decoders: Custom decoders are designed to map the encoder features
 🚀 Downstream Applications
 
 Once trained and fine-tuned, the model is deployed for various downstream seismic interpretation tasks, including:
+
 Seismic Horizon Picking
 Fault Detection
 Structural Framework Modeling
@@ -37,13 +38,20 @@ Structural Framework Modeling
 This repository provides a demonstration corresponding to the data mentioned in the paper, including synthetic seismic records and the F3 dataset. Follow the steps below to get started:
 
 Clone the Repository
+
 First, clone this repository to your local machine:
+
 git clone git@github.com:xiaochou12138/Joint-Recognition-of-Seismic-Horizon-and-Fault-Based-on-DINOv2-Foundation-Model-Fine-Tuning.git
+
 cd Joint-Recognition-of-Seismic-Horizon-and-Fault-Based-on-DINOv2-Foundation-Model-Fine-Tuning
 
 Install Dependencies
+
 Install the required Python packages using pip:
+
 pip install -r requirements.txt
+
+
 
 Download Datasets
 Before running the code, you need to download the datasets. 
