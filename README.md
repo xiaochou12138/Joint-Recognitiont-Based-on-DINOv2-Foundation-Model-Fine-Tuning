@@ -63,6 +63,22 @@ python tests/quick_test.py
 
 This test checks that the repository contains the expected source files, that Python files compile, and that `requirements.txt` does not contain duplicate package entries. It does not download data or train a model.
 
+## Runnable Example with Data and Trained Models
+
+The `example/` folder contains a small synthetic dataset and trained checkpoints for the structural-framework recognition task. To run inference with the included model:
+
+```bash
+python example/test.py
+```
+
+For CPU-only execution:
+
+```bash
+python example/test.py --device cpu
+```
+
+See [example/README.md](example/README.md) for the example data layout, checkpoint descriptions, inference commands, and training commands.
+
 ## Training and Evaluation
 
 Single-task training:

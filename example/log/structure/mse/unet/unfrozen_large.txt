@@ -1,0 +1,313 @@
+2026-06-10 14:42:34,131 - INFO - structure/mse/unet/unfrozen_large
+2026-06-10 14:42:34,159 - INFO - 	unet NetWork:
+	1 num classes
+	structure dataset
+	large vitType
+	mse loss
+
+2026-06-10 14:42:34,248 - INFO - Model Total: 4318401
+2026-06-10 14:42:34,248 - INFO - Model Trainable: 4318401
+2026-06-10 14:42:34,250 - INFO - Starting training:
+        Epochs:          100
+        Batch size:      3
+        Learning rate:   0.0001
+        Training size:   300
+        Validation size: 1
+        Checkpoints:     True
+    
+2026-06-10 14:42:43,525 - INFO - Epoch 1 - TrainSet - Loss: 0.05987234752625227
+2026-06-10 14:42:43,554 - INFO - min_train_loss saved!
+2026-06-10 14:42:43,583 - INFO - Epoch 1 - ValidateSet - Loss: 0.037904076278209686
+2026-06-10 14:42:43,609 - INFO - min_valid_loss saved!
+2026-06-10 14:42:52,232 - INFO - Epoch 2 - TrainSet - Loss: 0.07016945745795965
+2026-06-10 14:42:52,247 - INFO - Epoch 2 - ValidateSet - Loss: 0.04865149036049843
+2026-06-10 14:43:00,876 - INFO - Epoch 3 - TrainSet - Loss: 0.05319008767604828
+2026-06-10 14:43:00,903 - INFO - min_train_loss saved!
+2026-06-10 14:43:00,918 - INFO - Epoch 3 - ValidateSet - Loss: 0.047870274633169174
+2026-06-10 14:43:09,530 - INFO - Epoch 4 - TrainSet - Loss: 0.05181161191314459
+2026-06-10 14:43:09,557 - INFO - min_train_loss saved!
+2026-06-10 14:43:09,571 - INFO - Epoch 4 - ValidateSet - Loss: 0.04435935616493225
+2026-06-10 14:43:18,202 - INFO - Epoch 5 - TrainSet - Loss: 0.04907856803387403
+2026-06-10 14:43:18,228 - INFO - min_train_loss saved!
+2026-06-10 14:43:18,242 - INFO - Epoch 5 - ValidateSet - Loss: 0.04673927649855614
+2026-06-10 14:43:26,909 - INFO - Epoch 6 - TrainSet - Loss: 0.047599417716264726
+2026-06-10 14:43:26,934 - INFO - min_train_loss saved!
+2026-06-10 14:43:26,949 - INFO - Epoch 6 - ValidateSet - Loss: 0.04006711393594742
+2026-06-10 14:43:35,658 - INFO - Epoch 7 - TrainSet - Loss: 0.04598388612270355
+2026-06-10 14:43:35,687 - INFO - min_train_loss saved!
+2026-06-10 14:43:35,702 - INFO - Epoch 7 - ValidateSet - Loss: 0.033613868057727814
+2026-06-10 14:43:35,729 - INFO - min_valid_loss saved!
+2026-06-10 14:43:44,351 - INFO - Epoch 8 - TrainSet - Loss: 0.04510229017585516
+2026-06-10 14:43:44,376 - INFO - min_train_loss saved!
+2026-06-10 14:43:44,389 - INFO - Epoch 8 - ValidateSet - Loss: 0.03242882713675499
+2026-06-10 14:43:44,417 - INFO - min_valid_loss saved!
+2026-06-10 14:43:53,059 - INFO - Epoch 9 - TrainSet - Loss: 0.0441819017753005
+2026-06-10 14:43:53,085 - INFO - min_train_loss saved!
+2026-06-10 14:43:53,100 - INFO - Epoch 9 - ValidateSet - Loss: 0.03247557953000069
+2026-06-10 14:44:01,726 - INFO - Epoch 10 - TrainSet - Loss: 0.04386977331712842
+2026-06-10 14:44:01,752 - INFO - min_train_loss saved!
+2026-06-10 14:44:01,767 - INFO - Epoch 10 - ValidateSet - Loss: 0.0300438329577446
+2026-06-10 14:44:01,793 - INFO - min_valid_loss saved!
+2026-06-10 14:44:10,417 - INFO - Epoch 11 - TrainSet - Loss: 0.04306555634364486
+2026-06-10 14:44:10,443 - INFO - min_train_loss saved!
+2026-06-10 14:44:10,458 - INFO - Epoch 11 - ValidateSet - Loss: 0.027421770617365837
+2026-06-10 14:44:10,485 - INFO - min_valid_loss saved!
+2026-06-10 14:44:19,105 - INFO - Epoch 12 - TrainSet - Loss: 0.04241626627743244
+2026-06-10 14:44:19,131 - INFO - min_train_loss saved!
+2026-06-10 14:44:19,145 - INFO - Epoch 12 - ValidateSet - Loss: 0.02593255043029785
+2026-06-10 14:44:19,170 - INFO - min_valid_loss saved!
+2026-06-10 14:44:27,812 - INFO - Epoch 13 - TrainSet - Loss: 0.04193562377244234
+2026-06-10 14:44:27,838 - INFO - min_train_loss saved!
+2026-06-10 14:44:27,852 - INFO - Epoch 13 - ValidateSet - Loss: 0.028371766209602356
+2026-06-10 14:44:36,498 - INFO - Epoch 14 - TrainSet - Loss: 0.04105156160891056
+2026-06-10 14:44:36,523 - INFO - min_train_loss saved!
+2026-06-10 14:44:36,537 - INFO - Epoch 14 - ValidateSet - Loss: 0.026078209280967712
+2026-06-10 14:44:45,159 - INFO - Epoch 15 - TrainSet - Loss: 0.04057914869859815
+2026-06-10 14:44:45,186 - INFO - min_train_loss saved!
+2026-06-10 14:44:45,200 - INFO - Epoch 15 - ValidateSet - Loss: 0.021862275898456573
+2026-06-10 14:44:45,225 - INFO - min_valid_loss saved!
+2026-06-10 14:44:53,833 - INFO - Epoch 16 - TrainSet - Loss: 0.04026811886578798
+2026-06-10 14:44:53,859 - INFO - min_train_loss saved!
+2026-06-10 14:44:53,874 - INFO - Epoch 16 - ValidateSet - Loss: 0.020665982738137245
+2026-06-10 14:44:53,900 - INFO - min_valid_loss saved!
+2026-06-10 14:45:02,514 - INFO - Epoch 17 - TrainSet - Loss: 0.03932990826666355
+2026-06-10 14:45:02,541 - INFO - min_train_loss saved!
+2026-06-10 14:45:02,557 - INFO - Epoch 17 - ValidateSet - Loss: 0.020825998857617378
+2026-06-10 14:45:11,203 - INFO - Epoch 18 - TrainSet - Loss: 0.039236515443772074
+2026-06-10 14:45:11,230 - INFO - min_train_loss saved!
+2026-06-10 14:45:11,245 - INFO - Epoch 18 - ValidateSet - Loss: 0.019402870908379555
+2026-06-10 14:45:11,270 - INFO - min_valid_loss saved!
+2026-06-10 14:45:19,893 - INFO - Epoch 19 - TrainSet - Loss: 0.03862040352076292
+2026-06-10 14:45:19,920 - INFO - min_train_loss saved!
+2026-06-10 14:45:19,935 - INFO - Epoch 19 - ValidateSet - Loss: 0.018189704045653343
+2026-06-10 14:45:19,962 - INFO - min_valid_loss saved!
+2026-06-10 14:45:28,603 - INFO - Epoch 20 - TrainSet - Loss: 0.03838847767561674
+2026-06-10 14:45:28,628 - INFO - min_train_loss saved!
+2026-06-10 14:45:28,642 - INFO - Epoch 20 - ValidateSet - Loss: 0.026968255639076233
+2026-06-10 14:45:37,292 - INFO - Epoch 21 - TrainSet - Loss: 0.03912903245538473
+2026-06-10 14:45:37,308 - INFO - Epoch 21 - ValidateSet - Loss: 0.016549691557884216
+2026-06-10 14:45:37,335 - INFO - min_valid_loss saved!
+2026-06-10 14:45:46,085 - INFO - Epoch 22 - TrainSet - Loss: 0.03791910132393241
+2026-06-10 14:45:46,111 - INFO - min_train_loss saved!
+2026-06-10 14:45:46,125 - INFO - Epoch 22 - ValidateSet - Loss: 0.02156945876777172
+2026-06-10 14:45:54,800 - INFO - Epoch 23 - TrainSet - Loss: 0.03758845843374729
+2026-06-10 14:45:54,825 - INFO - min_train_loss saved!
+2026-06-10 14:45:54,840 - INFO - Epoch 23 - ValidateSet - Loss: 0.016162831336259842
+2026-06-10 14:45:54,865 - INFO - min_valid_loss saved!
+2026-06-10 14:46:03,521 - INFO - Epoch 24 - TrainSet - Loss: 0.037620377950370314
+2026-06-10 14:46:03,535 - INFO - Epoch 24 - ValidateSet - Loss: 0.014165974222123623
+2026-06-10 14:46:03,563 - INFO - min_valid_loss saved!
+2026-06-10 14:46:12,340 - INFO - Epoch 25 - TrainSet - Loss: 0.0372690381295979
+2026-06-10 14:46:12,367 - INFO - min_train_loss saved!
+2026-06-10 14:46:12,383 - INFO - Epoch 25 - ValidateSet - Loss: 0.018167875707149506
+2026-06-10 14:46:21,211 - INFO - Epoch 26 - TrainSet - Loss: 0.037335859667509796
+2026-06-10 14:46:21,225 - INFO - Epoch 26 - ValidateSet - Loss: 0.012857118621468544
+2026-06-10 14:46:21,253 - INFO - min_valid_loss saved!
+2026-06-10 14:46:30,008 - INFO - Epoch 27 - TrainSet - Loss: 0.03736299661919475
+2026-06-10 14:46:30,023 - INFO - Epoch 27 - ValidateSet - Loss: 0.023001831024885178
+2026-06-10 14:46:38,760 - INFO - Epoch 28 - TrainSet - Loss: 0.036859230492264035
+2026-06-10 14:46:38,787 - INFO - min_train_loss saved!
+2026-06-10 14:46:38,802 - INFO - Epoch 28 - ValidateSet - Loss: 0.012681754305958748
+2026-06-10 14:46:38,826 - INFO - min_valid_loss saved!
+2026-06-10 14:46:47,537 - INFO - Epoch 29 - TrainSet - Loss: 0.03686187190003693
+2026-06-10 14:46:47,552 - INFO - Epoch 29 - ValidateSet - Loss: 0.03278051316738129
+2026-06-10 14:46:56,281 - INFO - Epoch 30 - TrainSet - Loss: 0.036824045851826664
+2026-06-10 14:46:56,308 - INFO - min_train_loss saved!
+2026-06-10 14:46:56,323 - INFO - Epoch 30 - ValidateSet - Loss: 0.01290184073150158
+2026-06-10 14:47:05,031 - INFO - Epoch 31 - TrainSet - Loss: 0.03656498526223004
+2026-06-10 14:47:05,058 - INFO - min_train_loss saved!
+2026-06-10 14:47:05,074 - INFO - Epoch 31 - ValidateSet - Loss: 0.011902010068297386
+2026-06-10 14:47:05,099 - INFO - min_valid_loss saved!
+2026-06-10 14:47:13,766 - INFO - Epoch 32 - TrainSet - Loss: 0.03638037069700659
+2026-06-10 14:47:13,792 - INFO - min_train_loss saved!
+2026-06-10 14:47:13,807 - INFO - Epoch 32 - ValidateSet - Loss: 0.011185161769390106
+2026-06-10 14:47:13,833 - INFO - min_valid_loss saved!
+2026-06-10 14:47:22,528 - INFO - Epoch 33 - TrainSet - Loss: 0.03605582215823233
+2026-06-10 14:47:22,554 - INFO - min_train_loss saved!
+2026-06-10 14:47:22,568 - INFO - Epoch 33 - ValidateSet - Loss: 0.019737984985113144
+2026-06-10 14:47:31,232 - INFO - Epoch 34 - TrainSet - Loss: 0.03761592419818044
+2026-06-10 14:47:31,247 - INFO - Epoch 34 - ValidateSet - Loss: 0.01814824901521206
+2026-06-10 14:47:39,955 - INFO - Epoch 35 - TrainSet - Loss: 0.03705111039802432
+2026-06-10 14:47:39,971 - INFO - Epoch 35 - ValidateSet - Loss: 0.016938645392656326
+2026-06-10 14:47:48,652 - INFO - Epoch 36 - TrainSet - Loss: 0.0369657797832042
+2026-06-10 14:47:48,667 - INFO - Epoch 36 - ValidateSet - Loss: 0.011132786050438881
+2026-06-10 14:47:48,695 - INFO - min_valid_loss saved!
+2026-06-10 14:47:57,411 - INFO - Epoch 37 - TrainSet - Loss: 0.035898156277835366
+2026-06-10 14:47:57,436 - INFO - min_train_loss saved!
+2026-06-10 14:47:57,451 - INFO - Epoch 37 - ValidateSet - Loss: 0.012559200637042522
+2026-06-10 14:48:06,163 - INFO - Epoch 38 - TrainSet - Loss: 0.03597609956748784
+2026-06-10 14:48:06,178 - INFO - Epoch 38 - ValidateSet - Loss: 0.010958791710436344
+2026-06-10 14:48:06,207 - INFO - min_valid_loss saved!
+2026-06-10 14:48:14,879 - INFO - Epoch 39 - TrainSet - Loss: 0.035849708579480645
+2026-06-10 14:48:14,906 - INFO - min_train_loss saved!
+2026-06-10 14:48:14,922 - INFO - Epoch 39 - ValidateSet - Loss: 0.009423508308827877
+2026-06-10 14:48:14,948 - INFO - min_valid_loss saved!
+2026-06-10 14:48:23,730 - INFO - Epoch 40 - TrainSet - Loss: 0.035689182011410595
+2026-06-10 14:48:23,757 - INFO - min_train_loss saved!
+2026-06-10 14:48:23,773 - INFO - Epoch 40 - ValidateSet - Loss: 0.009297676384449005
+2026-06-10 14:48:23,798 - INFO - min_valid_loss saved!
+2026-06-10 14:48:32,552 - INFO - Epoch 41 - TrainSet - Loss: 0.035420437529683116
+2026-06-10 14:48:32,577 - INFO - min_train_loss saved!
+2026-06-10 14:48:32,591 - INFO - Epoch 41 - ValidateSet - Loss: 0.009538906626403332
+2026-06-10 14:48:41,433 - INFO - Epoch 42 - TrainSet - Loss: 0.03563919364474714
+2026-06-10 14:48:41,447 - INFO - Epoch 42 - ValidateSet - Loss: 0.008401834405958652
+2026-06-10 14:48:41,477 - INFO - min_valid_loss saved!
+2026-06-10 14:48:50,141 - INFO - Epoch 43 - TrainSet - Loss: 0.035484701348468664
+2026-06-10 14:48:50,156 - INFO - Epoch 43 - ValidateSet - Loss: 0.0084186727181077
+2026-06-10 14:48:58,830 - INFO - Epoch 44 - TrainSet - Loss: 0.03589697159826755
+2026-06-10 14:48:58,844 - INFO - Epoch 44 - ValidateSet - Loss: 0.009133690036833286
+2026-06-10 14:49:07,519 - INFO - Epoch 45 - TrainSet - Loss: 0.03541299004107714
+2026-06-10 14:49:07,547 - INFO - min_train_loss saved!
+2026-06-10 14:49:07,564 - INFO - Epoch 45 - ValidateSet - Loss: 0.008893491700291634
+2026-06-10 14:49:16,308 - INFO - Epoch 46 - TrainSet - Loss: 0.03494967203587294
+2026-06-10 14:49:16,336 - INFO - min_train_loss saved!
+2026-06-10 14:49:16,352 - INFO - Epoch 46 - ValidateSet - Loss: 0.009015913121402264
+2026-06-10 14:49:25,064 - INFO - Epoch 47 - TrainSet - Loss: 0.035939069278538224
+2026-06-10 14:49:25,078 - INFO - Epoch 47 - ValidateSet - Loss: 0.009015114977955818
+2026-06-10 14:49:33,769 - INFO - Epoch 48 - TrainSet - Loss: 0.035317526347935196
+2026-06-10 14:49:33,784 - INFO - Epoch 48 - ValidateSet - Loss: 0.007527282927185297
+2026-06-10 14:49:33,812 - INFO - min_valid_loss saved!
+2026-06-10 14:49:42,544 - INFO - Epoch 49 - TrainSet - Loss: 0.03513129157945514
+2026-06-10 14:49:42,560 - INFO - Epoch 49 - ValidateSet - Loss: 0.0070998878218233585
+2026-06-10 14:49:42,587 - INFO - min_valid_loss saved!
+2026-06-10 14:49:51,284 - INFO - Epoch 50 - TrainSet - Loss: 0.03455672897398472
+2026-06-10 14:49:51,310 - INFO - min_train_loss saved!
+2026-06-10 14:49:51,327 - INFO - Epoch 50 - ValidateSet - Loss: 0.00957100186496973
+2026-06-10 14:50:00,070 - INFO - Epoch 51 - TrainSet - Loss: 0.03463307965546846
+2026-06-10 14:50:00,085 - INFO - Epoch 51 - ValidateSet - Loss: 0.007707906886935234
+2026-06-10 14:50:08,851 - INFO - Epoch 52 - TrainSet - Loss: 0.03449675273150206
+2026-06-10 14:50:08,879 - INFO - min_train_loss saved!
+2026-06-10 14:50:08,893 - INFO - Epoch 52 - ValidateSet - Loss: 0.007029700092971325
+2026-06-10 14:50:08,920 - INFO - min_valid_loss saved!
+2026-06-10 14:50:17,555 - INFO - Epoch 53 - TrainSet - Loss: 0.0349042840860784
+2026-06-10 14:50:17,572 - INFO - Epoch 53 - ValidateSet - Loss: 0.008585301227867603
+2026-06-10 14:50:26,308 - INFO - Epoch 54 - TrainSet - Loss: 0.03477415663190186
+2026-06-10 14:50:26,322 - INFO - Epoch 54 - ValidateSet - Loss: 0.0070947445929050446
+2026-06-10 14:50:35,009 - INFO - Epoch 55 - TrainSet - Loss: 0.035119611378759144
+2026-06-10 14:50:35,023 - INFO - Epoch 55 - ValidateSet - Loss: 0.0065408567897975445
+2026-06-10 14:50:35,050 - INFO - min_valid_loss saved!
+2026-06-10 14:50:43,929 - INFO - Epoch 56 - TrainSet - Loss: 0.034986479748040436
+2026-06-10 14:50:43,944 - INFO - Epoch 56 - ValidateSet - Loss: 0.006592853926122189
+2026-06-10 14:50:52,607 - INFO - Epoch 57 - TrainSet - Loss: 0.03414611170999706
+2026-06-10 14:50:52,634 - INFO - min_train_loss saved!
+2026-06-10 14:50:52,648 - INFO - Epoch 57 - ValidateSet - Loss: 0.00580700533464551
+2026-06-10 14:50:52,674 - INFO - min_valid_loss saved!
+2026-06-10 14:51:01,409 - INFO - Epoch 58 - TrainSet - Loss: 0.034353240504860875
+2026-06-10 14:51:01,425 - INFO - Epoch 58 - ValidateSet - Loss: 0.006367293186485767
+2026-06-10 14:51:10,301 - INFO - Epoch 59 - TrainSet - Loss: 0.0344730992987752
+2026-06-10 14:51:10,316 - INFO - Epoch 59 - ValidateSet - Loss: 0.005808722693473101
+2026-06-10 14:51:19,037 - INFO - Epoch 60 - TrainSet - Loss: 0.03431433604098857
+2026-06-10 14:51:19,052 - INFO - Epoch 60 - ValidateSet - Loss: 0.00662296824157238
+2026-06-10 14:51:27,872 - INFO - Epoch 61 - TrainSet - Loss: 0.03415259649977088
+2026-06-10 14:51:27,886 - INFO - Epoch 61 - ValidateSet - Loss: 0.01491986308246851
+2026-06-10 14:51:36,703 - INFO - Epoch 62 - TrainSet - Loss: 0.034028550488874314
+2026-06-10 14:51:36,732 - INFO - min_train_loss saved!
+2026-06-10 14:51:36,746 - INFO - Epoch 62 - ValidateSet - Loss: 0.005550231318920851
+2026-06-10 14:51:36,771 - INFO - min_valid_loss saved!
+2026-06-10 14:51:45,582 - INFO - Epoch 63 - TrainSet - Loss: 0.03398103539366275
+2026-06-10 14:51:45,608 - INFO - min_train_loss saved!
+2026-06-10 14:51:45,622 - INFO - Epoch 63 - ValidateSet - Loss: 0.01009541004896164
+2026-06-10 14:51:54,337 - INFO - Epoch 64 - TrainSet - Loss: 0.03396982519887388
+2026-06-10 14:51:54,365 - INFO - min_train_loss saved!
+2026-06-10 14:51:54,381 - INFO - Epoch 64 - ValidateSet - Loss: 0.005238066427409649
+2026-06-10 14:51:54,408 - INFO - min_valid_loss saved!
+2026-06-10 14:52:03,118 - INFO - Epoch 65 - TrainSet - Loss: 0.0341392584471032
+2026-06-10 14:52:03,133 - INFO - Epoch 65 - ValidateSet - Loss: 0.005416041240096092
+2026-06-10 14:52:11,831 - INFO - Epoch 66 - TrainSet - Loss: 0.03460682968609035
+2026-06-10 14:52:11,846 - INFO - Epoch 66 - ValidateSet - Loss: 0.005470427684485912
+2026-06-10 14:52:20,505 - INFO - Epoch 67 - TrainSet - Loss: 0.03366316526196897
+2026-06-10 14:52:20,533 - INFO - min_train_loss saved!
+2026-06-10 14:52:20,547 - INFO - Epoch 67 - ValidateSet - Loss: 0.005242997780442238
+2026-06-10 14:52:29,398 - INFO - Epoch 68 - TrainSet - Loss: 0.03382796810939908
+2026-06-10 14:52:29,413 - INFO - Epoch 68 - ValidateSet - Loss: 0.007528538350015879
+2026-06-10 14:52:38,096 - INFO - Epoch 69 - TrainSet - Loss: 0.03367596747353673
+2026-06-10 14:52:38,111 - INFO - Epoch 69 - ValidateSet - Loss: 0.008258256129920483
+2026-06-10 14:52:46,798 - INFO - Epoch 70 - TrainSet - Loss: 0.03354020392522216
+2026-06-10 14:52:46,825 - INFO - min_train_loss saved!
+2026-06-10 14:52:46,839 - INFO - Epoch 70 - ValidateSet - Loss: 0.004405609332025051
+2026-06-10 14:52:46,865 - INFO - min_valid_loss saved!
+2026-06-10 14:52:55,524 - INFO - Epoch 71 - TrainSet - Loss: 0.033418784476816656
+2026-06-10 14:52:55,552 - INFO - min_train_loss saved!
+2026-06-10 14:52:55,567 - INFO - Epoch 71 - ValidateSet - Loss: 0.006296933628618717
+2026-06-10 14:53:04,467 - INFO - Epoch 72 - TrainSet - Loss: 0.03330553866457194
+2026-06-10 14:53:04,493 - INFO - min_train_loss saved!
+2026-06-10 14:53:04,508 - INFO - Epoch 72 - ValidateSet - Loss: 0.00435304269194603
+2026-06-10 14:53:04,534 - INFO - min_valid_loss saved!
+2026-06-10 14:53:13,256 - INFO - Epoch 73 - TrainSet - Loss: 0.033420192059129473
+2026-06-10 14:53:13,271 - INFO - Epoch 73 - ValidateSet - Loss: 0.0045822071842849255
+2026-06-10 14:53:21,920 - INFO - Epoch 74 - TrainSet - Loss: 0.03327986039221287
+2026-06-10 14:53:21,948 - INFO - min_train_loss saved!
+2026-06-10 14:53:21,963 - INFO - Epoch 74 - ValidateSet - Loss: 0.004233094863593578
+2026-06-10 14:53:21,989 - INFO - min_valid_loss saved!
+2026-06-10 14:53:30,674 - INFO - Epoch 75 - TrainSet - Loss: 0.03339777759276331
+2026-06-10 14:53:30,689 - INFO - Epoch 75 - ValidateSet - Loss: 0.004140038043260574
+2026-06-10 14:53:30,717 - INFO - min_valid_loss saved!
+2026-06-10 14:53:39,396 - INFO - Epoch 76 - TrainSet - Loss: 0.033722850200720134
+2026-06-10 14:53:39,411 - INFO - Epoch 76 - ValidateSet - Loss: 0.0043616266921162605
+2026-06-10 14:53:48,073 - INFO - Epoch 77 - TrainSet - Loss: 0.033120175059884786
+2026-06-10 14:53:48,099 - INFO - min_train_loss saved!
+2026-06-10 14:53:48,112 - INFO - Epoch 77 - ValidateSet - Loss: 0.0051719434559345245
+2026-06-10 14:53:56,768 - INFO - Epoch 78 - TrainSet - Loss: 0.03325014177709818
+2026-06-10 14:53:56,783 - INFO - Epoch 78 - ValidateSet - Loss: 0.005105334799736738
+2026-06-10 14:54:05,461 - INFO - Epoch 79 - TrainSet - Loss: 0.03298403671011329
+2026-06-10 14:54:05,488 - INFO - min_train_loss saved!
+2026-06-10 14:54:05,503 - INFO - Epoch 79 - ValidateSet - Loss: 0.003915019333362579
+2026-06-10 14:54:05,530 - INFO - min_valid_loss saved!
+2026-06-10 14:54:14,192 - INFO - Epoch 80 - TrainSet - Loss: 0.033156466279178856
+2026-06-10 14:54:14,206 - INFO - Epoch 80 - ValidateSet - Loss: 0.004592430777847767
+2026-06-10 14:54:22,869 - INFO - Epoch 81 - TrainSet - Loss: 0.03300805264152586
+2026-06-10 14:54:22,884 - INFO - Epoch 81 - ValidateSet - Loss: 0.0037935152649879456
+2026-06-10 14:54:22,913 - INFO - min_valid_loss saved!
+2026-06-10 14:54:31,593 - INFO - Epoch 82 - TrainSet - Loss: 0.03300094856414944
+2026-06-10 14:54:31,608 - INFO - Epoch 82 - ValidateSet - Loss: 0.0037941003683954477
+2026-06-10 14:54:40,288 - INFO - Epoch 83 - TrainSet - Loss: 0.032738780854269865
+2026-06-10 14:54:40,317 - INFO - min_train_loss saved!
+2026-06-10 14:54:40,331 - INFO - Epoch 83 - ValidateSet - Loss: 0.0038655849639326334
+2026-06-10 14:54:49,022 - INFO - Epoch 84 - TrainSet - Loss: 0.03289877746254206
+2026-06-10 14:54:49,037 - INFO - Epoch 84 - ValidateSet - Loss: 0.0063308123499155045
+2026-06-10 14:54:57,702 - INFO - Epoch 85 - TrainSet - Loss: 0.03323453089222312
+2026-06-10 14:54:57,717 - INFO - Epoch 85 - ValidateSet - Loss: 0.003667693817988038
+2026-06-10 14:54:57,744 - INFO - min_valid_loss saved!
+2026-06-10 14:55:06,448 - INFO - Epoch 86 - TrainSet - Loss: 0.03275796643458307
+2026-06-10 14:55:06,462 - INFO - Epoch 86 - ValidateSet - Loss: 0.003675868036225438
+2026-06-10 14:55:15,171 - INFO - Epoch 87 - TrainSet - Loss: 0.032436465369537475
+2026-06-10 14:55:15,197 - INFO - min_train_loss saved!
+2026-06-10 14:55:15,212 - INFO - Epoch 87 - ValidateSet - Loss: 0.0039924937300384045
+2026-06-10 14:55:23,908 - INFO - Epoch 88 - TrainSet - Loss: 0.032412910633720454
+2026-06-10 14:55:23,933 - INFO - min_train_loss saved!
+2026-06-10 14:55:23,947 - INFO - Epoch 88 - ValidateSet - Loss: 0.0031527152750641108
+2026-06-10 14:55:23,973 - INFO - min_valid_loss saved!
+2026-06-10 14:55:32,652 - INFO - Epoch 89 - TrainSet - Loss: 0.03257287690415978
+2026-06-10 14:55:32,666 - INFO - Epoch 89 - ValidateSet - Loss: 0.004199464805424213
+2026-06-10 14:55:41,359 - INFO - Epoch 90 - TrainSet - Loss: 0.03236495157703757
+2026-06-10 14:55:41,386 - INFO - min_train_loss saved!
+2026-06-10 14:55:41,400 - INFO - Epoch 90 - ValidateSet - Loss: 0.0030668729450553656
+2026-06-10 14:55:41,427 - INFO - min_valid_loss saved!
+2026-06-10 14:55:50,114 - INFO - Epoch 91 - TrainSet - Loss: 0.03244601493468508
+2026-06-10 14:55:50,129 - INFO - Epoch 91 - ValidateSet - Loss: 0.0035276561975479126
+2026-06-10 14:55:58,818 - INFO - Epoch 92 - TrainSet - Loss: 0.032341762892901894
+2026-06-10 14:55:58,845 - INFO - min_train_loss saved!
+2026-06-10 14:55:58,860 - INFO - Epoch 92 - ValidateSet - Loss: 0.0034167002886533737
+2026-06-10 14:56:07,551 - INFO - Epoch 93 - TrainSet - Loss: 0.03213347441051155
+2026-06-10 14:56:07,576 - INFO - min_train_loss saved!
+2026-06-10 14:56:07,591 - INFO - Epoch 93 - ValidateSet - Loss: 0.0029173558577895164
+2026-06-10 14:56:07,617 - INFO - min_valid_loss saved!
+2026-06-10 14:56:16,491 - INFO - Epoch 94 - TrainSet - Loss: 0.03205392625881359
+2026-06-10 14:56:16,519 - INFO - min_train_loss saved!
+2026-06-10 14:56:16,535 - INFO - Epoch 94 - ValidateSet - Loss: 0.0031503234058618546
+2026-06-10 14:56:25,371 - INFO - Epoch 95 - TrainSet - Loss: 0.03186757056042552
+2026-06-10 14:56:25,399 - INFO - min_train_loss saved!
+2026-06-10 14:56:25,414 - INFO - Epoch 95 - ValidateSet - Loss: 0.003327614162117243
+2026-06-10 14:56:34,190 - INFO - Epoch 96 - TrainSet - Loss: 0.032159893789794294
+2026-06-10 14:56:34,205 - INFO - Epoch 96 - ValidateSet - Loss: 0.004305044189095497
+2026-06-10 14:56:42,886 - INFO - Epoch 97 - TrainSet - Loss: 0.03211215144954622
+2026-06-10 14:56:42,901 - INFO - Epoch 97 - ValidateSet - Loss: 0.003871752182021737
+2026-06-10 14:56:51,594 - INFO - Epoch 98 - TrainSet - Loss: 0.031835521757602694
+2026-06-10 14:56:51,620 - INFO - min_train_loss saved!
+2026-06-10 14:56:51,634 - INFO - Epoch 98 - ValidateSet - Loss: 0.004095155745744705
+2026-06-10 14:57:00,312 - INFO - Epoch 99 - TrainSet - Loss: 0.03255123882787302
+2026-06-10 14:57:00,326 - INFO - Epoch 99 - ValidateSet - Loss: 0.0026364149525761604
+2026-06-10 14:57:00,354 - INFO - min_valid_loss saved!
+2026-06-10 14:57:09,021 - INFO - Epoch 100 - TrainSet - Loss: 0.03167973016155884
+2026-06-10 14:57:09,047 - INFO - min_train_loss saved!
+2026-06-10 14:57:09,060 - INFO - Epoch 100 - ValidateSet - Loss: 0.003174050012603402
