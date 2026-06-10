@@ -1,94 +1,116 @@
-# Joint-Recognition-Based-on-DINOv2-Foundation-Model-Fine-Tuning
-Utilizing the DINOv2 model for intelligent interpretation of seismic horizons, faults and structure framework
-china university of petroleum (East chian), school of GeoScience, Qingdao, China 
+# Joint Recognition Based on DINOv2 Foundation Model Fine-Tuning
 
+This repository contains the source code accompanying the manuscript
+**"Joint Recognition of Seismic Horizons and Faults Based on DINOv2 Foundation Model Fine-Tuning"**.
 
-🌍 Seismic Interpretation with Foundation Models
+The code fine-tunes DINOv2-style vision foundation backbones for seismic interpretation tasks, including horizon recognition, fault recognition, and structural-framework prediction.
 
-This repository presents a workflow for adapting pre-trained foundation models to the field of seismic interpretation.
+## Repository Contents
 
-🛠️ Data Preparation
+- `demo_classification.py` - single-task training entry point.
+- `demo_classification_two_tasks.py` - multi-task training entry point for joint seismic interpretation.
+- `evaluate_classification.py` - evaluation script for single-task predictions.
+- `evaluate_classification_two_tasks.py` - evaluation script for multi-task predictions.
+- `dataset.py` - dataset loader used by the training and evaluation scripts.
+- `models/` - DINOv2 backbones, adapters, DPT modules, and U-Net baseline components.
+- `loss/` - Dice, weighted Dice, focal, SSIM, and metric utilities.
+- `data/` - scripts for label construction, dataset generation, and data augmentation.
+- `run/` - example shell commands for model training.
+- `tests/quick_test.py` - lightweight repository smoke test.
+- `docs/` - usage notes and manuscript-ready code availability text.
 
-To prepare the training dataset using seismic data alongside corresponding horizon and fault interpretations, follow these steps:
+## Installation
 
-Construct Structural Frameworks: Use the data/make_dataset_labels.py script to process the raw data and build the structural frameworks.
-Generate Datasets: Execute data/make_datasets.py to generate the actual training and testing splits required for network training.
-Data Augmentation: Finally, run data_aug.py to perform data augmentation, enriching the training data to improve model robustness.
+Create a clean Python environment and install the dependencies:
 
-🧠 Model Architecture & Fine-tuning
+```bash
+git clone https://github.com/xiaochou12138/Joint-Recognitiont-Based-on-DINOv2-Foundation-Model-Fine-Tuning.git
+cd Joint-Recognitiont-Based-on-DINOv2-Foundation-Model-Fine-Tuning
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
 
-Our approach leverages the power of transfer learning:
+The full training workflow requires PyTorch-compatible hardware. GPU acceleration is recommended for DINOv2 fine-tuning.
 
-Feature Encoder: We utilize pre-trained foundation models (specifically DINOv2 in Small, Base, and Large variants) as the backbone for seismic feature extraction.
-Fine-tuning: The models are fine-tuned to adapt to the unique characteristics of seismic horizons, faults, and structural frameworks.
-Task-Specific Decoders: Custom decoders are designed to map the encoder features to specific objectives, enabling precise predictions for horizons, faults, and structural frameworks.
+## Data
 
-🚀 Downstream Applications
+The training and evaluation scripts expect seismic volumes, horizon labels, and fault labels arranged under `data/`. The manuscript experiments use synthetic seismic records and the F3 dataset.
 
-Once trained and fine-tuned, the model is deployed for various downstream seismic interpretation tasks, including:
+Large research data files are not stored directly in this repository. Download the data from the project data link and place the extracted files under `data/` before running the training scripts:
 
-Seismic Horizon Picking
-Fault Detection
-Structural Framework Modeling
+<https://drive.google.com/drive/folders/1gKgE0lJfkmGsF433mj0jMVanPNZjeJKP?usp=drive_link>
 
+Recommended layout:
 
+```text
+data/
+  synthetic_data/
+    train/
+    valid/
+    test/
+  F3/
+```
 
-🚀 Quick Start Guide
+## Quick Test
 
-This repository provides a demonstration corresponding to the data mentioned in the paper, including synthetic seismic records and the F3 dataset. Follow the steps below to get started:
+Run the lightweight smoke test before training:
 
-Clone the Repository
+```bash
+python tests/quick_test.py
+```
 
-First, clone this repository to your local machine:
+This test checks that the repository contains the expected source files, that Python files compile, and that `requirements.txt` does not contain duplicate package entries. It does not download data or train a model.
 
-git clone git@github.com:xiaochou12138/Joint-Recognition-of-Seismic-Horizon-and-Fault-Based-on-DINOv2-Foundation-Model-Fine-Tuning.git
+## Training and Evaluation
 
-cd Joint-Recognition-of-Seismic-Horizon-and-Fault-Based-on-DINOv2-Foundation-Model-Fine-Tuning
+Single-task training:
 
-Install Dependencies
-
-Install the required Python packages using pip:
-
-pip install -r requirements.txt
-
-
-
-Download Datasets
-Before running the code, you need to download the datasets. 
-Please download the data from (https://drive.google.com/drive/folders/1gKgE0lJfkmGsF433mj0jMVanPNZjeJKP?usp=drive_link) and place it in the data/ folder.
-
-Run the Code
-You can run the following scripts for training, evaluation, and visualization:
-
-Training & Evaluation
-Single-task training
-
+```bash
 python demo_classification.py
+```
 
-Multi-task training
+Multi-task joint training:
 
+```bash
 python demo_classification_two_tasks.py
+```
 
-Evaluate single-task model predictions
+Single-task evaluation:
 
+```bash
 python evaluate_classification.py
+```
 
-Evaluate multi-task model predictions
+Multi-task evaluation:
 
+```bash
 python evaluate_classification_two_tasks.py
+```
 
-Post-processing & Analysis
-Post-processing (corresponds to the method in the paper)
+Post-processing for separating structural-framework predictions into horizon and fault components:
 
-python manual_judge_horizon.py
+```bash
+python separation_fault_and_horizon.py
+```
 
-💡 Interesting Features & Visualizations
+Feature-map visualization:
 
-We have included several scripts to help you explore the model's internal mechanics and outputs:
+```bash
+python plt_tezhengtu.py
+```
 
-Feature Visualization (plt_tezhengtu.py): 
-    Visualizes the feature maps directly predicted by the DINOv2 vision foundation model, helping you understand what the model "sees."
-    
-Structural Framework Decoupling (separation_fault_and_horizon.py): 
-    This script separates the predicted structural framework to obtain clean horizon and fault results. It demonstrates the decoupling process: 
-    Faults + Horizons = Structural Framework  ➡️  Structural Framework Decoupling: Faults + Horizons.
+More detailed usage notes are available in [docs/USAGE.md](docs/USAGE.md).
+
+## Computer Code Availability
+
+The code is publicly available from this GitHub repository:
+
+<https://github.com/xiaochou12138/Joint-Recognitiont-Based-on-DINOv2-Foundation-Model-Fine-Tuning>
+
+It can be downloaded anonymously through the GitHub web interface or with `git clone`. A manuscript-ready code availability statement is provided in [docs/COMPUTER_CODE_AVAILABILITY.md](docs/COMPUTER_CODE_AVAILABILITY.md).
+
+## License
+
+This repository is released under the Apache License 2.0. See [LICENSE](LICENSE) for details.
